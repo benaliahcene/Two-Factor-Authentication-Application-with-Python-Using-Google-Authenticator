@@ -5,4 +5,4 @@ pas, ou encore si la période de 60 secondes est échue, alors l’utilisateur r
 Après 5 tentatives refusées, l’application serveur se ferme. L’utilisateur doit alors l’ouvrir à nouveau.
 
 
-Il faut installer le package pyotp et qrcode
+Il faut installer les packages suivants: pyotp & qrcode
