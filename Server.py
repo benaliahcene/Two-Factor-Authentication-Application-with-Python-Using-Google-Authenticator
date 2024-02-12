@@ -38,6 +38,7 @@ def main():
         if time.time() - start_time > 30:
                 last_valid_token = ga.now()
                     # Si aucun jeton a été entré aprés les 30 secondes, afficher le dernier jeton valide
+                print("Accès refusé !")    
                 print("30 secondes écoulées. Dernier jeton valide :", last_valid_token)
         else:
     # Valider le jeton saisi
